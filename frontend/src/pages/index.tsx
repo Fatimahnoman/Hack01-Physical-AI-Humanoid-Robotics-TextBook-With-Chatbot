@@ -14,7 +14,7 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={styles.heroBanner_container}>
         <div className={styles.heroContent}>
-          <h1 className="hero__title">The Dawn of Physical AI</h1>
+          <h1 className="hero__title">Physical AI Humanoid Robotics TextBook</h1>
           <p className="hero__subtitle">
             An open-source textbook on the convergence of robotics, artificial intelligence, and embodied cognition. 
             Master ROS 2, Digital Twins, and advanced Vision-Language-Action models to bring intelligent machines to life.
@@ -26,9 +26,6 @@ function HomepageHeader() {
               Begin Your Journey
             </Link>
           </div>
-        </div>
-        <div className={styles.heroImageContainer}>
-          <img src="/img/robo.jpg" alt="Physical AI Logo" className={styles.heroImage} />
         </div>
       </div>
     </header>
@@ -96,7 +93,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Physical AI & Humanoid Robotics`}
+      title={`Physical AI Humanoid Robotics TextBook`}
       description="An open-source textbook on the convergence of robotics, artificial intelligence, and embodied cognition.">
       <HomepageHeader />
       <main>
