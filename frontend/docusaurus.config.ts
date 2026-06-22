@@ -134,7 +134,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright 2025 Physical AI & Humanoid Robotics Textbook, Built with by Humema Israr ❤️  `,
+      copyright: `Copyright 2025 Physical AI & Humanoid Robotics Textbook, Built with by Fatimah Noman ❤️  `,
     },
     prism: {
       theme: prismThemes.github,
